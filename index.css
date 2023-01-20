@@ -50,16 +50,48 @@ nav {
 .menu a:hover {
   color: rgb(237, 71, 52);
 }
-/* .icon i {
+.icon i {
   font-size: 20px;
+  color: black;
 }
 .icon i:hover {
   color: rgb(237, 71, 52);
-} */
+}
 .icon a {
   text-decoration: none;
   background-color: rgb(237, 71, 52);
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+}
+.h-text {
+  color: white;
+  max-width: 700%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.h-text h1 {
+  font-family: sans-serif;
+  font-size: 3em;
+  line-height: 1.5em;
+}
+.h-text input {
+  width: 60%;
+  padding: 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 20px 50px;
+  text-align: center;
+  background-color: rgb(237, 71, 52);
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  outline: none;
 }
