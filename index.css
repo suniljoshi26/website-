@@ -23,8 +23,10 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  padding: 0, 80px;
+  padding-inline: 30px;
   font-size: larger;
+  position: fixed;
+  top: 0;
 }
 
 .logo {
@@ -47,4 +49,17 @@ nav {
 }
 .menu a:hover {
   color: rgb(237, 71, 52);
+}
+/* .icon i {
+  font-size: 20px;
+}
+.icon i:hover {
+  color: rgb(237, 71, 52);
+} */
+.icon a {
+  text-decoration: none;
+  background-color: rgb(237, 71, 52);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
